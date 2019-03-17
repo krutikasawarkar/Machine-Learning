@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7ec152c2-b9a3-4274-b06f-fded07728164</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MatPlotLibDemo.py</StartupFile>
+    <StartupFile>Python_Modules\Numpy\NumpyDemo.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,6 +26,9 @@
     <Compile Include="MatPlotLibDemo.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Python_Modules\Numpy\NumpyDemo.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="RegressionDemo.py">
       <SubType>Code</SubType>
     </Compile>
@@ -40,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
+    <Folder Include="Python_Modules\" />
+    <Folder Include="Python_Modules\Numpy\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\web_traffic.tsv.txt" />
