@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7ec152c2-b9a3-4274-b06f-fded07728164</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Python_Modules\Numpy\NumpyDemo.py</StartupFile>
+    <StartupFile>Python_Modules\Pandas\PandasBasics.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,6 +29,9 @@
     <Compile Include="Python_Modules\Numpy\NumpyDemo.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Python_Modules\Pandas\PandasBasics.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="RegressionDemo.py">
       <SubType>Code</SubType>
     </Compile>
@@ -44,6 +47,7 @@
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Python_Modules\" />
+    <Folder Include="Python_Modules\Pandas\" />
     <Folder Include="Python_Modules\Numpy\" />
   </ItemGroup>
   <ItemGroup>
