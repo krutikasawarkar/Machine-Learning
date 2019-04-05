@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7ec152c2-b9a3-4274-b06f-fded07728164</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Python_Modules\Pandas\PandasBasics.py</StartupFile>
+    <StartupFile>Python_Modules\Matplotlib\BasicsOfMatPlotLib.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,9 @@
   <ItemGroup>
     <Compile Include="BasicsOfPython.py" />
     <Compile Include="MatPlotLibDemo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python_Modules\Matplotlib\BasicsOfMatPlotLib.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Python_Modules\Numpy\NumpyDemo.py">
@@ -47,10 +50,12 @@
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Python_Modules\" />
+    <Folder Include="Python_Modules\Matplotlib\" />
     <Folder Include="Python_Modules\Pandas\" />
     <Folder Include="Python_Modules\Numpy\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Data\pima-data-orig.csv" />
     <Content Include="Data\web_traffic.tsv.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

@@ -61,5 +61,5 @@ df2 = pd.DataFrame({"HPI":[80,90,70,60], "Int_rate":[2,1,2,3],"ÏND_GDP":[50,45,
 ##Data Munging: can convert particular form of data in a different format
 #example: txt-->xhtml
 #not working .
-#demo = pd.read_csv('C:\\Users\\sawa_kru\\Downloads\\SampleCSVFile_2kb.csv', index_col=0)
-#demo.to_html('edu.html')
+demo = pd.read_csv('C:\\Users\\sawa_kru\\Downloads\\SampleCSVFile_2kb.csv', index_col=0)
+demo.to_html('edu.html')
